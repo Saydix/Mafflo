@@ -1,0 +1,168 @@
+body {
+	background-color: #F9E2B7;
+	color: #9D7368;
+}
+
+#tabs {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #9D7368;
+	text-align: center;
+}
+
+#tabs li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+#tabs li a {
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	color: #F9E2B7;
+	font-weight: bold;
+	transition: background-color 0.3s ease;
+}
+
+#tabs li a:hover {
+	background-color: #F9E2B7;
+	color: #9D7368;
+}
+
+#content {
+	margin-top: 20px;
+}
+
+
+#btnGamerAdd,
+#btnSpreadRoles,
+#btnBegin,
+#btnReset {
+	background-color: #9D7368;
+	border: none;
+	color: #F9E2B7;
+	padding: 10px;
+	margin: 4px;
+	font-size: 12px;
+	cursor: pointer;
+	transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#btnGamerAdd:hover,
+#btnSpreadRoles:hover,
+#btnBegin:hover,
+#btnReset:hover {
+	background-color: #F9E2B7;
+	color: #9D7368;
+	transform: scale(1.05);
+	box-shadow: 0 0 10px #9D7368;
+}
+
+#btnGamerAdd:active,
+#btnSpreadRoles:active,
+#btnBegin:active,
+#btnReset:active {
+	box-shadow: 0 0 10px #9D7368 inset;
+}
+
+#btnGamerAdd:focus,
+#btnSpreadRoles:focus,
+#btnBegin:focus,
+#btnReset:focus {
+	outline: none;
+}
+
+#btnGamerAdd span,
+#btnSpreadRoles span,
+#btnBegin span,
+#btnReset span {
+	display: inline-block;
+	transition: transform 0.3s ease;
+}
+
+#btnGamerAdd:hover span,
+#btnSpreadRoles:hover span,
+#btnBegin:hover span,
+#btnReset:hover span {
+	transform: scale(1.05);
+}
+
+
+.table {
+	display: table;
+}
+
+.tr {
+	display: table-row;
+	vertical-align: top;
+	height: 25px;
+}
+
+.td,
+.th {
+	display: table-cell;
+	vertical-align: top;
+	padding: 1px 2px 1px 2px;
+	line-height: 25px;
+	color: #F9E2B7; /* Добавлено свойство color */
+}
+
+.th {
+	text-align: center;
+	background: #9D7368;
+}
+
+#cover {
+	clear: both;
+}
+
+#cover .td,
+#cover .th {
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+
+#cover .th {
+	border-top: 1px solid #000;
+}
+
+.clNums, .clNames, .clRoles {
+	color: #845C53;
+}
+
+.gamerDie {
+	background:#473131	 !important;
+}
+.roleMaff{
+	background: #DABE8D;
+}
+
+
+
+#btnNight, #btnDay, #btnClear, #btnTimer {
+	height: 38px;
+	width: 75px;
+	margin: 0;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	font-size: 22px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #4CAF50;
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+#btnNight:hover, #btnDay:hover, #btnClear:hover, #btnTimer:hover {
+	background-color: #3e8e41;
+}
+
+#btnNight:active, #btnDay:active, #btnClear:active, #btnTimer:active {
+	background-color: #1e401e;
+}
+
+
